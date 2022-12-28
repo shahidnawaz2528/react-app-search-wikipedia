@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 // if we dont need to return any jsx from a component then we might not need to imprt react as well
 
