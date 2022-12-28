@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Accordion from './components/Accordion';
 import Search from './components/Search';
-import SearchOptional from './components/SearchOptional';
+// import SearchOptional from './components/SearchOptional';
 import Dropdown from './components/Dropdown';
-import Translate from './components/Translate';
+// import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
 
@@ -40,7 +40,7 @@ function App() {
   ];
 
   const [selected, setSelected] = useState(options[0]);
-  const [showDropdown, setShowDropdown] = useState(true);
+  // const [showDropdown, setShowDropdown] = useState(true);
 
   // const showAccordian = () => {
   //   if (window.location.pathname === '/') {
@@ -111,7 +111,7 @@ function App() {
           />
         </Route>
         <Route path='/translate'>
-          <Translate />
+          {/* <Translate /> */}
         </Route>
     </div>
   );
